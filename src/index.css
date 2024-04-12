@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-header {
+    background-color: linear-gradient(182.92deg, rgba(4, 2, 67, 0.12)36.581%, rgba(31, 26, 255, 0.2)80.91%);
+}
+
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.fill-color {
+    background: linear-gradient(137.68deg, rgb(255, 255, 255), rgba(176, 250, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    background: rgb(27,41,68)
+}

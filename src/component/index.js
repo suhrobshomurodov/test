@@ -1,0 +1,10 @@
+export { default as Header } from "./header";
+export { default as Footer } from "./footer";
+export { default as Banner } from "./banner";
+export { default as SocialNetworks } from "./social-networks";
+export { default as Telegram } from "./telegram";
+export { default as Title } from "./title";
+export { default as Contact } from "./contact";
+export {default as Liders} from "./liders";
+export {default as Card} from "./card";
+export {default as TeamMembers} from "./team";
