@@ -2,6 +2,10 @@ import React from 'react'
 
 
 const CardTwo = ({image, title, text}) => {
+
+
+
+  
   return (
     <div className='max-w-[350px] h-[504px] p-[30px]  bg-cardTwo-bg rounded-2xl '>
       <img className='w-full ' src={image} alt="error" />
