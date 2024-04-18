@@ -11,6 +11,7 @@ const CardTwo = ({image, title, text}) => {
       <img className='w-full ' src={image} alt="error" />
       <h2 className='mt-[44px] text-xl font-extrabold leading-6 text-center text-white'>{title}</h2>
       <p className='mt-[22px] mb-[62px] text-center text-white uppercase'>{text}</p>
+      
     </div>
   )
 }

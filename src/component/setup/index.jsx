@@ -8,8 +8,12 @@ function Setup() {
     return (
         <section>
             <div className="container">
-                <div className='text-center'>
-                    <Title text={'Setup'} />
+            <div className='p-[10px] text-center' >
+            <Title text={'Setup'} />
+            </div>
+                <div className='text-center flex gap-4 items-center justify-between'>
+                    <CardTwo image={img} title={"Создать адрес SHIELD"} text={"Создайте защищенный или прозрачный адрес, по которому вы хотите получать свои чаевые"} />
+                    <CardTwo image={img} title={"Создать адрес SHIELD"} text={"Создайте защищенный или прозрачный адрес, по которому вы хотите получать свои чаевые"} />
                     <CardTwo image={img} title={"Создать адрес SHIELD"} text={"Создайте защищенный или прозрачный адрес, по которому вы хотите получать свои чаевые"} />
 
 
